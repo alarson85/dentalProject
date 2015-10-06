@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	font: sans-serif;
+	text-decoration: none;
+}
+
+body {
+	background-color: blue;
+}
+
+.header {
+	background-color: darkblue;
+	text-align: center;
+	color: white;
+	font-size: 10;
+	height: 30px;
+	width: 100%;
+	display: inline-block;
+	margin: 0;
+}
+
+.header p {
+	display: inline-block;
+	line-height: 30px;
+	padding: 0 2%;
+}
+
+.header a {
+	display: inline-block;
+	height: 17px;
+	overflow: visible;
+	position: relative;
+	top: 3px;
+}
+
+.main {
+	margin:30px;
+	padding:30px;
+	background-color: white;
+	min-height: 20px;
+	border: solid black 1px;
+}
+
+.logo {
+	display: block;
+	float: left;
+	margin: 0 0 15px 0;
+}
+
+.nav {
+	float: right;
+	display: inline;
+	font-size: 25px;	
+	margin-right: 5%;
+	padding-top: 15px;
+}
+
+.nav a {
+	margin: 0 10px;
+}
+
+.intro {
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+.columns {
+	height: 350px;
+	margin: 25px 0;
+}
+
+.column {
+	float: left;
+	position: relative;
+	height: 350px;
+	font-size: 12px;
+	color: gray;
+}
+
+.left, .middle, .right {
+	width: 0 auto;
+	max-width: 30%;
+	margin: 1em;
+}
+
+.profileText {
+	margin: 25px;
+}
+
+.profileLink {
+	color: black;
+	text-decoration: bold;
+	margin: 25px;
+}
+
+.mainImage {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+	padding-top: 50px;
+	font-size: 12px;
+}
+
+.mainText {
+	text-align: center;
+}
+
+.video {
+	display: block;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.footer {
+	color: white
+	font-size: 10px;
+}
+
+
